@@ -6,8 +6,11 @@ ReetrantReadWriteLock in windows os
 #### How to use
 
 1.  add the lib header file
+```cpp
 #include <WinSRWLock.h>
+```
 2.  using 
+```cpp
 void use(){
    WinSRWLock lock;
    //init the lock
@@ -23,3 +26,4 @@ void use(){
    //release the write lock
    lock.writeUnLock();
 }
+```

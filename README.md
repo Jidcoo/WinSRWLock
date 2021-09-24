@@ -1,14 +1,19 @@
 # WinSRWLock
 
 #### 介绍
+
 ReetrantReadWriteLock：
 Windows系统下的读写锁封装
 
 #### 使用说明
 
 1.  添加头文件
+```cpp
 #include <WinSRWLock.h>
+```
+
 2.  使用
+```cpp
 void use(){
    WinSRWLock lock;
    //初始化
@@ -24,9 +29,8 @@ void use(){
    //释放写锁
    lock.writeUnLock();
 }
+```
 
 
-
-3.  xxxx
 
 
